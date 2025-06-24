@@ -1,0 +1,52 @@
+/* Títulos principais */
+h1 {
+    color: #0b3d91; /* Azul institucional */
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+/* Subtítulos */
+h2 {
+    color: #89CFF0; /* Azul pastel (baby blue) */
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* Parágrafos */
+p {
+    color: #6b6d76;  /* Cinza escuro, bom em light e dark mode */
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+/* Exemplo de link estilizado (caso queira links no texto) */
+a {
+    color: #0b3d91;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.botao-link {
+    text-decoration: none;
+    color: black;  /* Texto preto no estado normal */
+    background-color: #89CFF0;  /* Azul pastel */
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.botao-link:hover {
+    background-color: #0b3d91;  /* Azul escuro no hover */
+    color: white;               /* Texto branco no hover */
+    text-decoration: none;
+}

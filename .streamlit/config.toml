@@ -1,0 +1,14 @@
+[server]
+# Permite acesso de qualquer rede (útil se for rodar fora do localhost, como em nuvem)
+headless = true
+port = 8501
+enableCORS = false
+
+[theme]
+# Escolha automática entre dark/light conforme o navegador do usuário
+base = "auto"
+primaryColor = "#0b3d91"           # Azul escuro (personalize como quiser)
+backgroundColor = "#FFFFFF"        # Branco (modo light)
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"              # Preto-acinzentado para boa leitura no light
+font = "sans serif"
